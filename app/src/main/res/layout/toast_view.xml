@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/loading_bg"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/toast_custom_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:id="@+id/toast_custom_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="密码设置成功"
+            android:layout_marginBottom="10dp"
+             />
+</LinearLayout>
